@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html class="theme-green">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>GCC Code Coverage Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js" charset="UTF-8"></script>
+  </head>
+
+  <body>
+    <div class="Layout-main">
+      <div class="Layout-main-centered-lg" style="max-width: 1280px;">
+        <div class="d-flex flex-justify-center">
+          <h1>
+            <a href="index.html" style="cursor: default; text-decoration: none">
+              GCC Code Coverage Report</a>
+          </h1>
+        </div>
+        <hr class="block-separator"/>
+        <header>
+<div id="summary">
+  <div class="containter-xl clearfix">
+    <div class="col-sm-12 col-lg-9 float-left d-flex flex-column pl-3">
+      <div class="d-flex">
+        <div class="mr-2 color-fg-accent transy-2">
+          <svg aria-label="Directory" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file-directory-fill hx_color-icon-directory">
+            <path d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"></path>
+          </svg>
+        </div>
+        <span>QMdmm/</span>
+      </div>
+      <div class="d-flex flex-wrap" style="margin-bottom: 2px;">
+        <div class="mr-2" style="min-width: 70px;">Coverage:</div>
+        <span class="IssueLabel coverage-low color-fg-on-emphasis mr-1">low: &ge; 0%</span>
+        <span class="IssueLabel coverage-medium color-fg-on-emphasis mr-1">medium: &ge; 75.0%</span>
+        <span class="IssueLabel coverage-high color-fg-on-emphasis mr-1">high: &ge; 90.0%</span>
+      </div>
+    </div>
+    <div class="col-sm-12 col-lg-3 float-left d-flex flex-column text-right flex-justify-end pr-3">
+      <div class="d-flex">
+        <div class="mr-2">Lines:</div>
+        <div class="mr-2" style="margin: auto;">4439 / 4897</div>
+        <div class="Label--minw"><span class="coverage-high IssueLabel color-fg-on-emphasis mr-1">90.6%</span></div>
+      </div>
+      <div class="d-flex">
+        <div class="mr-2">Branches:</div>
+        <div class="mr-2" style="margin: auto;">5159 / 9716</div>
+        <div class="Label--minw"><span class="coverage-low IssueLabel color-fg-on-emphasis mr-1">53.1%</span></div>
+      </div>
+      <div class="d-flex">
+        <div class="mr-2">Functions:</div>
+        <div class="mr-2" style="margin: auto;">682 / 737</div>
+        <div class="Label--minw"><span class="coverage-high IssueLabel color-fg-on-emphasis mr-1">92.5%</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+        </header>
+        <hr/>
+        <nav>
+<div class="m-3">
+  <a href="index.functions.html">List of functions</a>
+</div>
+
+        </nav>
+        <main>
+<div class="Box m-3 filelist">
+  <div class="Box-header py-2 d-flex sticky">
+    <div role="rowheader" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5 sortable sorted-ascending">File</div>
+    <div role="rowheader" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100 sortable">Lines</div>
+    <div role="rowheader" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5 sortable">Branches</div>
+    <div role="rowheader" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5 sortable">Functions</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmBot/src/bot.cpp" href="index.bot.cpp.1aafde3725ad2d9d0084196b812d3bb1.html">QMdmmBot/src/bot.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="98.5">
+      <span class="text-small color-fg-muted mr-2">191 / 194</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 98.5%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">98.5%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="69.7">
+      <span class="text-small color-fg-muted mr-2">198 / 284</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">69.7%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">37 / 37</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmBot/src/config.cpp" href="index.config.cpp.df5c403a2c8fa5361dbdda0e28bdb3bc.html">QMdmmBot/src/config.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="93.3">
+      <span class="text-small color-fg-muted mr-2">56 / 60</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 93.3%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">93.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="47.3">
+      <span class="text-small color-fg-muted mr-2">71 / 150</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">47.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">8 / 8</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmBot/src/config.h" href="index.config.h.890a7b2fc3399a9a254a232a9e27dc50.html">QMdmmBot/src/config.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">8 / 8</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="-">
+      <span class="text-small color-fg-muted mr-2">-</span>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">4 / 4</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmBot/src/horsepreferredbot.cpp" href="index.horsepreferredbot.cpp.8724ff211f5e952eb92d6c260eee39e6.html">QMdmmBot/src/horsepreferredbot.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="92.2">
+      <span class="text-small color-fg-muted mr-2">95 / 103</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 92.2%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">92.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="52.7">
+      <span class="text-small color-fg-muted mr-2">117 / 222</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">52.7%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">8 / 8</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmBot/src/knifepreferredbot.cpp" href="index.knifepreferredbot.cpp.3f175860ab17c4be99f5fb1cc6bfca7f.html">QMdmmBot/src/knifepreferredbot.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="95.0">
+      <span class="text-small color-fg-muted mr-2">95 / 100</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 95.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">95.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="56.5">
+      <span class="text-small color-fg-muted mr-2">131 / 232</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">56.5%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">9 / 9</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmBot/src/main.cpp" href="index.main.cpp.7535140d053ee19bae6f3d1a326d9d00.html">QMdmmBot/src/main.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="91.3">
+      <span class="text-small color-fg-muted mr-2">42 / 46</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 91.3%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">91.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="45.2">
+      <span class="text-small color-fg-muted mr-2">47 / 104</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">45.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">5 / 5</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmBot/src/rlbot.cpp" href="index.rlbot.cpp.96fef78646ee54979acaa7d0cbab19ae.html">QMdmmBot/src/rlbot.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="40.0">
+      <span class="text-small color-fg-muted mr-2">6 / 15</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-low" style="width: 40.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">40.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="50.0">
+      <span class="text-small color-fg-muted mr-2">6 / 12</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">50.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="20.0">
+      <span class="text-small color-fg-muted mr-2">1 / 5</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">20.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmcore.cpp" href="index.qmdmmcore.cpp.3969117cc983bf673376bcb993bb7880.html">QMdmmCore/src/qmdmmcore.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="82.3">
+      <span class="text-small color-fg-muted mr-2">65 / 79</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-medium" style="width: 82.3%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-medium">82.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="39.2">
+      <span class="text-small color-fg-muted mr-2">69 / 176</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">39.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">12 / 12</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmcoreglobal.h" href="index.qmdmmcoreglobal.h.0c92fa208d9bc26b096812f58bf257ce.html">QMdmmCore/src/qmdmmcoreglobal.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="70.3">
+      <span class="text-small color-fg-muted mr-2">26 / 37</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-low" style="width: 70.3%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">70.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="62.5">
+      <span class="text-small color-fg-muted mr-2">10 / 16</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">62.5%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="52.6">
+      <span class="text-small color-fg-muted mr-2">10 / 19</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">52.6%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmdebug.cpp" href="index.qmdmmdebug.cpp.fb54d58790aab03d3ddd4b9f611db73f.html">QMdmmCore/src/qmdmmdebug.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">21 / 21</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="60.0">
+      <span class="text-small color-fg-muted mr-2">18 / 30</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">60.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">3 / 3</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmdebug_p.cpp" href="index.qmdmmdebug_p.cpp.e0dac972c8088d2f9110cc8fd5eee60d.html">QMdmmCore/src/qmdmmdebug_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="93.9">
+      <span class="text-small color-fg-muted mr-2">31 / 33</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 93.9%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">93.9%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="70.7">
+      <span class="text-small color-fg-muted mr-2">29 / 41</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">70.7%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">4 / 4</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmlogic.cpp" href="index.qmdmmlogic.cpp.5d7efcc388eeee9b56ef54bd390e5b41.html">QMdmmCore/src/qmdmmlogic.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">106 / 106</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="72.7">
+      <span class="text-small color-fg-muted mr-2">96 / 132</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">72.7%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">11 / 11</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmlogic.h" href="index.qmdmmlogic.h.07683c34a8d43d068abdb252c3d01e7a.html">QMdmmCore/src/qmdmmlogic.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="0.0">
+      <span class="text-small color-fg-muted mr-2">0 / 2</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-none" style="width: 0.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-none">0.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="-">
+      <span class="text-small color-fg-muted mr-2">-</span>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="0.0">
+      <span class="text-small color-fg-muted mr-2">0 / 2</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-none">0.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmlogic_p.cpp" href="index.qmdmmlogic_p.cpp.be486f58792950c66cd2af959878d5cf.html">QMdmmCore/src/qmdmmlogic_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="96.4">
+      <span class="text-small color-fg-muted mr-2">242 / 251</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 96.4%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">96.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="69.9">
+      <span class="text-small color-fg-muted mr-2">197 / 282</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">69.9%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">14 / 14</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmplayer.cpp" href="index.qmdmmplayer.cpp.a63bc9ee272333b46a0d547b7a34164e.html">QMdmmCore/src/qmdmmplayer.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">225 / 225</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="93.8">
+      <span class="text-small color-fg-muted mr-2">137 / 146</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">93.8%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">46 / 46</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmplayer.h" href="index.qmdmmplayer.h.08a9805dea885ba16f79e40a7f7fefc9.html">QMdmmCore/src/qmdmmplayer.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">8 / 8</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="-">
+      <span class="text-small color-fg-muted mr-2">-</span>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">4 / 4</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmplayer_p.cpp" href="index.qmdmmplayer_p.cpp.6f244c11c4bbb60bd4b0f64d65bc4cf3.html">QMdmmCore/src/qmdmmplayer_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">20 / 20</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="55.0">
+      <span class="text-small color-fg-muted mr-2">11 / 20</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">55.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">2 / 2</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmprotocol.cpp" href="index.qmdmmprotocol.cpp.ca3243b1f61910787774ba11345e1481.html">QMdmmCore/src/qmdmmprotocol.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="96.1">
+      <span class="text-small color-fg-muted mr-2">147 / 153</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 96.1%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">96.1%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="59.4">
+      <span class="text-small color-fg-muted mr-2">145 / 244</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">59.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">19 / 19</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmprotocol.h" href="index.qmdmmprotocol.h.f35a74b7cc2ee7fd8ac10fba68f063fb.html">QMdmmCore/src/qmdmmprotocol.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">3 / 3</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="30.0">
+      <span class="text-small color-fg-muted mr-2">3 / 10</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">30.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">2 / 2</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmroom.cpp" href="index.qmdmmroom.cpp.8c48f10e52387b1919433aba642613b4.html">QMdmmCore/src/qmdmmroom.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="96.9">
+      <span class="text-small color-fg-muted mr-2">185 / 191</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 96.9%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">96.9%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="59.3">
+      <span class="text-small color-fg-muted mr-2">376 / 634</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">59.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">43 / 43</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmroom.h" href="index.qmdmmroom.h.9d4d69ca073b94969181b4de26ab41eb.html">QMdmmCore/src/qmdmmroom.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="83.3">
+      <span class="text-small color-fg-muted mr-2">5 / 6</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-medium" style="width: 83.3%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-medium">83.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="-">
+      <span class="text-small color-fg-muted mr-2">-</span>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="75.0">
+      <span class="text-small color-fg-muted mr-2">3 / 4</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-medium">75.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmsettings.cpp" href="index.qmdmmsettings.cpp.8ede666ddbcf4f974c7b8c31ffaf0ca5.html">QMdmmCore/src/qmdmmsettings.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="86.7">
+      <span class="text-small color-fg-muted mr-2">39 / 45</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-medium" style="width: 86.7%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-medium">86.7%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="59.4">
+      <span class="text-small color-fg-muted mr-2">19 / 32</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">59.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">11 / 11</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmsettings.h" href="index.qmdmmsettings.h.75393bf0a52bb6801d0cd492b8e1e849.html">QMdmmCore/src/qmdmmsettings.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="0.0">
+      <span class="text-small color-fg-muted mr-2">0 / 2</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-none" style="width: 0.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-none">0.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="-">
+      <span class="text-small color-fg-muted mr-2">-</span>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="0.0">
+      <span class="text-small color-fg-muted mr-2">0 / 2</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-none">0.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmsettings_p.cpp" href="index.qmdmmsettings_p.cpp.39c4538c4227af27fe793ff8e205ef68.html">QMdmmCore/src/qmdmmsettings_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="95.9">
+      <span class="text-small color-fg-muted mr-2">70 / 73</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 95.9%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">95.9%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="53.4">
+      <span class="text-small color-fg-muted mr-2">39 / 73</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">53.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">18 / 18</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCore/src/qmdmmsettings_p.h" href="index.qmdmmsettings_p.h.b4728f0c93a187e64551da56d1f5612d.html">QMdmmCore/src/qmdmmsettings_p.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">2 / 2</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="-">
+      <span class="text-small color-fg-muted mr-2">-</span>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">2 / 2</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmCtl/src/main.cpp" href="index.main.cpp.fbec4c44d302d8034b2cf21d1189bc91.html">QMdmmCtl/src/main.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="96.0">
+      <span class="text-small color-fg-muted mr-2">95 / 99</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 96.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">96.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="54.4">
+      <span class="text-small color-fg-muted mr-2">136 / 250</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">54.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">8 / 8</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmGui/src/gameclient.cpp" href="index.gameclient.cpp.1e2c53911fba7ef1a6eb31db52818781.html">QMdmmGui/src/gameclient.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="93.3">
+      <span class="text-small color-fg-muted mr-2">415 / 445</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 93.3%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">93.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="51.6">
+      <span class="text-small color-fg-muted mr-2">343 / 665</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">51.6%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="97.1">
+      <span class="text-small color-fg-muted mr-2">68 / 70</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">97.1%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmGui/src/gameclient.h" href="index.gameclient.h.ad520aa547ef310bd898cbebaaac6907.html">QMdmmGui/src/gameclient.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="33.3">
+      <span class="text-small color-fg-muted mr-2">1 / 3</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-low" style="width: 33.3%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">33.3%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="-">
+      <span class="text-small color-fg-muted mr-2">-</span>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="33.3">
+      <span class="text-small color-fg-muted mr-2">1 / 3</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">33.3%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmGui/src/main.cpp" href="index.main.cpp.699bc2faecba47c9f9d5ab3af418cac7.html">QMdmmGui/src/main.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="44.4">
+      <span class="text-small color-fg-muted mr-2">8 / 18</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-low" style="width: 44.4%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">44.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="18.2">
+      <span class="text-small color-fg-muted mr-2">8 / 44</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">18.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">1 / 1</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmGui/src/mainwindow.cpp" href="index.mainwindow.cpp.436783faf4b6e9611e408912c7e61e21.html">QMdmmGui/src/mainwindow.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">13 / 13</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="45.2">
+      <span class="text-small color-fg-muted mr-2">19 / 42</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">45.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">1 / 1</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmagent.cpp" href="index.qmdmmagent.cpp.cfc347155f8af7de94e30f5e9faf2489.html">QMdmmNetworking/src/qmdmmagent.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="94.1">
+      <span class="text-small color-fg-muted mr-2">96 / 102</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 94.1%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">94.1%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="66.7">
+      <span class="text-small color-fg-muted mr-2">8 / 12</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">66.7%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="93.9">
+      <span class="text-small color-fg-muted mr-2">31 / 33</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">93.9%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmclient.cpp" href="index.qmdmmclient.cpp.b82fb46f1f9a45b315f30848be9c6338.html">QMdmmNetworking/src/qmdmmclient.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="96.5">
+      <span class="text-small color-fg-muted mr-2">55 / 57</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 96.5%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">96.5%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="51.4">
+      <span class="text-small color-fg-muted mr-2">36 / 70</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">51.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">14 / 14</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmclient_p.cpp" href="index.qmdmmclient_p.cpp.3ae9ea5d893bbdf1c184b56b037b0985.html">QMdmmNetworking/src/qmdmmclient_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="85.6">
+      <span class="text-small color-fg-muted mr-2">548 / 640</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-medium" style="width: 85.6%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-medium">85.6%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="52.1">
+      <span class="text-small color-fg-muted mr-2">769 / 1477</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">52.1%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="95.2">
+      <span class="text-small color-fg-muted mr-2">59 / 62</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">95.2%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmlogicrunner.cpp" href="index.qmdmmlogicrunner.cpp.4d7d3b83ea2a31fc8ed1c9fed61a121d.html">QMdmmNetworking/src/qmdmmlogicrunner.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="91.9">
+      <span class="text-small color-fg-muted mr-2">57 / 62</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 91.9%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">91.9%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="56.2">
+      <span class="text-small color-fg-muted mr-2">63 / 112</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">56.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">9 / 9</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmlogicrunner_p.cpp" href="index.qmdmmlogicrunner_p.cpp.b91fd406abe4bf4a747598f320992902.html">QMdmmNetworking/src/qmdmmlogicrunner_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="92.5">
+      <span class="text-small color-fg-muted mr-2">160 / 173</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 92.5%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">92.5%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="57.1">
+      <span class="text-small color-fg-muted mr-2">145 / 254</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">57.1%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="95.5">
+      <span class="text-small color-fg-muted mr-2">21 / 22</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">95.5%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmserver.cpp" href="index.qmdmmserver.cpp.39effc321c54b55667d889918c80bf6f.html">QMdmmNetworking/src/qmdmmserver.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="96.4">
+      <span class="text-small color-fg-muted mr-2">133 / 138</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 96.4%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">96.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="58.2">
+      <span class="text-small color-fg-muted mr-2">369 / 634</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">58.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">34 / 34</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmserver_p.cpp" href="index.qmdmmserver_p.cpp.fba82616a60b4c6ad0d8f98ad0f329a7.html">QMdmmNetworking/src/qmdmmserver_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="95.0">
+      <span class="text-small color-fg-muted mr-2">209 / 220</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 95.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">95.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="52.8">
+      <span class="text-small color-fg-muted mr-2">280 / 530</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">52.8%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">20 / 20</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmserverconnection_p.cpp" href="index.qmdmmserverconnection_p.cpp.398e99785597a8578f268d10f4e76f9f.html">QMdmmNetworking/src/qmdmmserverconnection_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="90.8">
+      <span class="text-small color-fg-muted mr-2">325 / 358</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 90.8%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">90.8%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="48.2">
+      <span class="text-small color-fg-muted mr-2">314 / 652</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">48.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="95.3">
+      <span class="text-small color-fg-muted mr-2">41 / 43</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">95.3%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmsocket.cpp" href="index.qmdmmsocket.cpp.605ef2422b3e4864052908d678c5c7f7.html">QMdmmNetworking/src/qmdmmsocket.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="98.2">
+      <span class="text-small color-fg-muted mr-2">55 / 56</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 98.2%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">98.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="70.8">
+      <span class="text-small color-fg-muted mr-2">17 / 24</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">70.8%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">13 / 13</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmsocket.h" href="index.qmdmmsocket.h.dfd95d5ebe410c1a03ddc7085fab0acb.html">QMdmmNetworking/src/qmdmmsocket.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">1 / 1</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="30.0">
+      <span class="text-small color-fg-muted mr-2">3 / 10</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">30.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">1 / 1</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmsocket_p.cpp" href="index.qmdmmsocket_p.cpp.04d27f5e9219757d682ad7c98671f667.html">QMdmmNetworking/src/qmdmmsocket_p.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="93.4">
+      <span class="text-small color-fg-muted mr-2">198 / 212</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 93.4%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">93.4%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="52.9">
+      <span class="text-small color-fg-muted mr-2">146 / 276</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">52.9%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="97.4">
+      <span class="text-small color-fg-muted mr-2">37 / 38</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">97.4%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmNetworking/src/qmdmmsocket_p.h" href="index.qmdmmsocket_p.h.943933b2c5fba29db0751d474fe95534.html">QMdmmNetworking/src/qmdmmsocket_p.h</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">6 / 6</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 100.0%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="-">
+      <span class="text-small color-fg-muted mr-2">-</span>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">3 / 3</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmServer/src/config.cpp" href="index.config.cpp.8f4613e4276fd2e69ef0667a5b279527.html">QMdmmServer/src/config.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="71.7">
+      <span class="text-small color-fg-muted mr-2">330 / 460</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-low" style="width: 71.7%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">71.7%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="42.7">
+      <span class="text-small color-fg-muted mr-2">726 / 1700</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">42.7%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="61.9">
+      <span class="text-small color-fg-muted mr-2">39 / 63</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">61.9%</span>
+      </div >
+    </div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex col-md-2 gcovr-m-l-5">
+      <span class="mr-2">
+        <svg aria-hidden="true" focusable="false" role="img" class="color-fg-muted" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path></svg>
+      </span>
+      <span class="css-truncate css-truncate-target d-block width-fit">
+        <a class="" title="QMdmmServer/src/main.cpp" href="index.main.cpp.9e92b7fbb0a3116a0c199758f0c4859e.html">QMdmmServer/src/main.cpp</a>
+      </span>
+    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline gcovr-m-l-5 gcovr-h-100" data-sort="90.2">
+      <span class="text-small color-fg-muted mr-2">46 / 51</span>
+      <span class="meter Progress Progress--large d-inline-flex mr-2" style="width: 200px;">
+        <span class="Progress-item coverage-high" style="width: 90.2%"></span>
+      </span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">90.2%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="46.8">
+      <span class="text-small color-fg-muted mr-2">58 / 124</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-low">46.8%</span>
+      </div>
+    </div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-1-5 gcovr-m-l-5" data-sort="100.0">
+      <span class="text-small color-fg-muted mr-2">5 / 5</span>
+      <div class="Label--minw">
+        <span class="Label mr-1 Label--coverage-high">100.0%</span>
+      </div >
+    </div>
+  </div>
+</div>
+
+        </main>
+        <hr class="block-separator"/>
+        <footer class="text-center">
+          Created using <a href="http://gcovr.com/en/8.8">GCOVR (Version 8.8)</a>
+          at 2026-10-30 13:26:34+00:00
+        </footer>
+      </div>
+    </div>
+  </body>
+
+</html>
